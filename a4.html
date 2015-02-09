@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dallas Mavericks Fan Page</title>
+    <script src="Assignment_4_Test.js" defer="defer"></script>
+</head>
+<body>
+    <!--will create a button that can change background of webpage with javaScript script-->
+    <!--cite: http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_background-->
+    <button onclick="setBackgroundFunction()">Set background</button>
+    <br>
+    <br>
+    <!--button that will read in and alert title of page-->
+    <!--cite: http://stackoverflow.com/questions/1057059/how-to-get-title-of-html-page-with-javascript-->
+    <button onclick="alertTitle()">Click to Alert Title</button>
+
+    <!--text box that can enter email in-->
+    <br>
+    <p>
+        <h1> Email: </h1>
+        <form>
+        <input type="text" name="email" ID="emailTextBox">
+        </form>
+
+    </p>
+
+    <!--button that can click to validate email using regex-->
+    <!--cite for regex: -->
+    <button onclick="validateEmail()">Validate Email</button>
+    <br>
+    <br>
+
+    <!--button that will load the contents of GUI website and then print to console-->
+    <!--cite: http://stackoverflow.com/questions/3682805/javascript-load-a-page-on-button-click-->
+
+    <button id="loadButton"  onclick="load_Page()" >Load GUI Page </button>
+
+
+
+
+</body>
+</html>
