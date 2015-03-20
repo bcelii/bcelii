@@ -1,0 +1,9 @@
+| Website    | logYourRun.com | beginnertriathlete.com | mapMyRun.com |   |   |
+|------------|----------------|------------------------|--------------|---|---|
+| useful     | 5              | 5                      | 5            |   |   |
+| learnable  | 3              | 3                      | 4            |   |   |
+| memorable  | 2              | 2                      | 5            |   |   |
+| effective  | 3              | 3                      | 4            |   |   |
+| efficient  | 4              | 4                      | 4            |   |   |
+| desirable  | 2              | 4                      | 4            |   |   |
+| delightful | 2              | 5                      | 5            |   |   |

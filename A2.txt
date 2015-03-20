@@ -1,0 +1,17 @@
+Description of Website:
+The base website for the SMU traithlon club that will serve following functions:
+1) Method for registering with the team and signing up for the team emails, facebook group
+   and meeting invites
+2) Access point that will link to (or embed) all of the teams online resorces
+   a. Training logs on google docs
+   b. Racing schedule on google calendar
+3) Provide a page where teammates can post links/references to gear that is on sale for others
+   to check out and buy
+4) Provide an informational page with highlights, race results, training performances
+   to be shown to potential sponsors
+5) Provide quick glance look (probably through home page) on the latest activities of the club
+   --> example: a slide show on the main page with pictures from last weeks training or race
+
+Users:
+1) SMU students who want to join the club or just check it out
+2) Sponsors who want to see clubs activity
