@@ -1,0 +1,18 @@
+    <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+        <tr >
+            <th>Day</th>
+            <th>Type</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#workouts}}
+        <tr class="middleRow">
+            <td>{{Day}}</td>
+            <td>{{Type}}</td>
+            <td>{{Workout}}</td>
+        </tr>
+        {{/workouts}}
+        </tbody>
+    </table>

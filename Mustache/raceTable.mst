@@ -1,0 +1,22 @@
+    <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <tbody>
+        {{#results}}
+
+        <tr class="middleRow">
+             <td><b>{{name}}<b></td>
+             <td></td>
+             <td></td>
+        </tr>
+       <tr class="middleRow">
+       {{#races}}
+            <td>{{.}}</td>
+       {{/races}}
+       </tr>
+        <tr class="middleRow">
+        {{#time}}
+             <td>{{.}}</td>
+        {{/time}}
+        </tr>
+        {{/results}}
+        </tbody>
+    </table>

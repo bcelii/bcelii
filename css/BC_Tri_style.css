@@ -1,0 +1,34 @@
+#navbar-head, #navbar-head-button, #link-list, #top-nav li a{
+    color: #000000;
+}
+
+#top-nav li a:hover {
+    color: #ffffff;
+    background-color: #000000;
+
+}
+
+
+.intro .intro-body .brand-heading {
+    font-size: 20px;
+}
+
+#intro_reg {
+    width: 30%;
+    margin-left:65%;
+
+}
+
+#email_Holder{
+    max-width: 150px;
+}
+.brand-heading {
+    color:#000000;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.intro-body .container {
+    margin-bottom: 20%;
+}
+
