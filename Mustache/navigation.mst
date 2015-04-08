@@ -1,0 +1,7 @@
+<ul class="nav navbar-nav" id="top-nav">
+{{#nav}}
+<li>
+   <a href="#{{href}}" id="loginButton" class="blackHover">{{title}}</a>
+</li>
+{{/nav}}
+</ul>

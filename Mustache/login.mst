@@ -1,0 +1,15 @@
+    <div class="row">
+        <div id="Welcome_Back">
+            <h2>Welcome Back!!</h2>
+            <form>
+                <div class="form-group">
+                    <label for="loginEmail">Email address</label>
+                    <input type="email" class="form-control" id="loginEmail" placeholder="login@smu.edu">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                </div>
+            </form>
+        </div>
+    </div>

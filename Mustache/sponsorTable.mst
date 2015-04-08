@@ -1,0 +1,10 @@
+   <h2>Sponsors</h2>
+        <ul style="color:white">
+        {{#sponsors}}
+        <li>
+
+                <h3>{{name}}</h3>
+
+        </li>
+        {{/sponsors}}
+
