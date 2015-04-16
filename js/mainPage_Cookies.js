@@ -24,12 +24,15 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-    var user=getCookie("username");
-    if (user != "") {
+    console.log('inside check cookies main page');
+    var user = getCookie("username");
+    console.log("username cookie on main page = "+user);
+    if (user != "" && user!=null && user != "null" && user !=undefined && user != "undefined") {
         //alert("Welcome again " + user);
     } else {
         //alert("cookie not set");
         window.location.href = 'index.html';
+        alert('Must login before entering site ');
     }
 }
 

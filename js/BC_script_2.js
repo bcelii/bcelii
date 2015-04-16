@@ -23,6 +23,7 @@ function makeLoginPage(){
         $('#currentBody').html(template);
     });
 
+
 }
 
 function makeWorkoutTable(){
@@ -144,7 +145,7 @@ $(function(){
     $.get('Mustache/navigation.mst', function(template) {
         var data = {
             "nav":[
-                {"title":"Login", "href":"login"},
+                {"title":"AdminPage", "href":"login"},
                 {"title":"Members", "href": "members"},
                 {"title":"Race Results", "href": "raceResults"},
                 {"title":"Workout Schedule", "href": "workouts"},

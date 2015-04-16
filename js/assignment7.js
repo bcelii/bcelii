@@ -28,11 +28,17 @@ $(function() {
 /*Will use parse to update and add new members of the Triathlon Team and their stats*/
 
 /*function will save object to PARSE*/
-function saveAthlete(name,email,username,id,password,height,age,gender){
+function saveAthlete(name,email,username,id,password){
     var Athlete = Parse.Object.extend("Athlete");
     var athlete = new Athlete();
-
+    var height = null;
+    var age = null;
+    var gender = null;
     //set the properties of the athlete
+    athlete.set('password',password);
+
+    console.log("passed password = "+password);
+    console.log("Set password = "+ athlete.get("password"));
     athlete.set("name",name);
     athlete.set("SMU_ID",id);
     athlete.set("School","SMU");
@@ -41,9 +47,7 @@ function saveAthlete(name,email,username,id,password,height,age,gender){
     athlete.set("gender",gender);
     athlete.set("email",email);
     athlete.set('username',username);
-    athlete.set('password',password);
-    console.log("passed password = "+password);
-    console.log("Set password = "+ athlete.get("password"));
+
 
     console.log('about to save athlete in saveAthlete');
     athlete.save(null, {
@@ -192,7 +196,7 @@ function validateUser(email, password){
             //console.log("email = "+ object.get('email') + '; password = '+object.get('password'));
             /************for some reasone the password field is not getting set*****/
             if(object != undefined) {
-                if ((object.get('email') == email)/*&&(object.get('password') == password)*/) {
+                if ((object.get('email') == email) &&(object.get('password') == password)) {
                     setCookieToMain();
                 }
                 else {

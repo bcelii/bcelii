@@ -148,9 +148,15 @@
                     <input type="password" class="form-control" id="loginPassword" placeholder="Password">
                 </div>
             </form>-->
-            <button
+
         </div>
     </div>
+    <script>
+        $('#logOut_Button').click(function(event){
+            deleteCookie('username');
+            window.location.href = 'index.html';
+        });
+    </script>
 
 </section>
 <!-- Mustache javascript-->
