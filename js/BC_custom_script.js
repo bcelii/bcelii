@@ -52,7 +52,18 @@ function hashAction(){
     }
 }
 
+
+
 $(function(){
+    //to enable to connect to Parse using special key
+    Parse.initialize("oBYrcLB10KhBCXIvZJ64lXxGRDSjzBbqYegIOWii", "JYEdRmzyt0nRmICF0ypYzgrSe7khKRY4CPqY6ISd");
+
+    var TestObject = Parse.Object.extend("TestObject");
+    var testObject = new TestObject();
+    testObject.save({foo: "bar"}).then(function(object) {
+        alert("yay! it worked");
+    });
+
     $("#body").text("");
     $.get('navigation.mst', function(template) {
         var data = {"title":"TEST TITLE",

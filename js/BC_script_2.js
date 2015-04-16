@@ -140,6 +140,7 @@ function hashAction(){
 
 $(function(){
 
+
     $.get('Mustache/navigation.mst', function(template) {
         var data = {
             "nav":[
@@ -165,4 +166,9 @@ $(function(){
     };
 
 
+});
+
+$('#logOut_Button').click(function(event){
+    deleteCookie('username');
+    window.location.href = 'index.html';
 });
